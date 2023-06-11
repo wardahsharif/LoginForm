@@ -37,6 +37,7 @@ button {
    background-color: #c2b7f3;
    border: solid 2px transparent;
    font-size: 15px;
+   box-shadow: 2px 2px 4px rgb(156, 132, 184) ;
 }
 
 button:hover {
@@ -99,5 +100,4 @@ input:valid~label {
 h3 {
   position: absolute;  
   margin-top: 500px;
- 
 }
