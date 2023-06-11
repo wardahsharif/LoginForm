@@ -16,27 +16,29 @@
       <div class="form-box">
         <form>
           <h2>Login</h2>
-          <label for="username" class="username">Username <br /><br /></label>
-          <input
-            type="text"
-            placeholder="Enter Username"
-            name="username"
-            required
-          />
-          <i class="fa-regular fa-user"></i>
-          <br />
-          <br />
-          <label for="password" class="password">Password<br /><br /></label>
-          <input
-            type="password"
-            placeholder="Enter Password"
-            name="password"
-            required
-          />
-          <i class="fa-solid fa-lock"></i>
-          <br />
-          <br />
-          <button type="submit">login</button>
+          <div class="inputbox">
+            <input
+              type="text"
+              placeholder="Enter Username"
+              name="username"
+              required
+            />
+
+            <i class="fa-regular fa-user icon"></i>
+            <label for="username" class="username"></label>
+          </div>
+          <div class="inputbox">
+            <label for="password" class="password"></label>
+            <input
+              type="password"
+              placeholder="Enter Password"
+              name="password"
+              required
+            />
+            <i class="fa-solid fa-lock icon"></i>
+          </div>
+
+          <button type="submit">log in</button>
           <div class="bottom">
             <div class="left">
               <input type="checkbox" id="check" />
@@ -50,7 +52,9 @@
           </div>
         </form>
       </div>
+      <h3>Open source code by wardah</h3>
     </div>
+
     <script src="src/script.js"></script>
   </body>
 </html>
